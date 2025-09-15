@@ -1,0 +1,180 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Creepster", system-ui;
+  color: white;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 500px;
+  margin: 30px auto;
+  display: block;
+}
+
+.slot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(42, 0, 82, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 600px;
+}
+
+.allReels {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background: rgb(59, 14, 14);
+  border-radius: 10px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.reel {
+  width: 150px;
+  height: 150px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.reel img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.controlButton {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: rgb(13, 2, 24);
+  color: whitesmoke;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.result {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.credit {
+  font-size: 16px;
+  color: rgba(245, 245, 245, 0.89);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .reel {
+    width: 100px;
+    height: 100px;
+  }
+
+  .reel img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+
+  .result {
+    font-size: 16px;
+  }
+
+  .slot-container {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 60%;
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .reel {
+    width: 120px;
+    height: 120px;
+  }
+
+  .reel img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 18px 25px;
+  }
+
+  .result {
+    font-size: 18px;
+  }
+}

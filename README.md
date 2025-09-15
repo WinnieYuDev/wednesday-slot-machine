@@ -1,24 +1,28 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Wednesday Show Slot Machine
 
-### Goal: Build a Simple Slot Machine
+### Description
+- Wednesday is a popular netflix show created by Tim Burton. This slot machine has 3 reels with items shown as different outcast types from the show.
+- Players start off with 15 credits and every play is 1 credit. Two of a kind win gives you 5 credits and Three of kind gives jackpot with 15 credit win.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+<img width="1916" height="901" alt="website" src="https://github.com/user-attachments/assets/072effb3-dc81-4713-9d1e-ebcdd197c37f" />
 
-### How to submit your code for review:
+### Tech Used
+- HTML
+- CSS
+- JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Lessons Learned
+- Use of intervals, arrays, and Math scripts
+- Creating DOM elements
+- How to establish randomization
+- Using conditionals and for loops
+- Difference between innerText and innerHTML
 
-Example:
-```
+### Notes
+Wednesday is one of my current favorite TV shows and I'm looking forward to season 3. Hope you enjoy playing this game!
+
+### Review:
+
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Open to feedback.

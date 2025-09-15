@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Wednesday Slot Machine</title>
+
+		<!-- external CSS links -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Creepster&family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">		 
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+ 		<img class="logo" src="img/logo.png">			
+		<div class="slot-container">		
+			<h1>Wednesday Outcast Slot Machine</h1>
+			<div class="allReels" id="allReels">
+				<div class="reel" id="reel1"><img src="img/psychics.png" alt="psychic"></div>
+				<div class="reel" id="reel2"><img src="img/psychics.png" alt="psychic"></div>
+				<div class="reel" id="reel3"><img src="img/psychics.png" alt="psychic"></div>
+			</div>
+			<div class="controlButton">
+				<button id="spinMe">SPIN</button>
+				<button id="stopMe" disabled>STOP</button>
+			</div>
+			<div class="result"></div>
+			<div class="credit" id="credits">Credits <span id="creditLeft">15</span></div>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
