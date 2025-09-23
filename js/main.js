@@ -1,3 +1,5 @@
+// help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stackoverflow
+
 // reel array
 const reelItems = [
   "<img src='img/aven.png'>",

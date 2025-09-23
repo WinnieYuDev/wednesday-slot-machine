@@ -12,6 +12,9 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stackoverflow*/
+
 html, body {
   margin: 0;
   padding: 0;
@@ -117,6 +120,7 @@ button:disabled {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/* help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stack-overflow*/
 
 /* Mobile */
 @media screen and (max-width: 600px) {
