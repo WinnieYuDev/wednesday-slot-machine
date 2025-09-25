@@ -1,4 +1,4 @@
-// help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stackoverflow
+// help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stackoverflow and Google AI overview
 
 // reel array
 const reelItems = [
@@ -37,14 +37,14 @@ function randomReelItem() {
   return reelItems[index];
 }
 
-// Update credits on screen
+// update credits on screen
 function updateCredits(change) {
   credits += change;
   if (credits < 0) credits = 0;
   creditLeft.textContent = credits;
 }
 
-// Start spinning reels
+// start spinning reels
 function spinReels() {
   if (spinning || credits <= 0) return;
 

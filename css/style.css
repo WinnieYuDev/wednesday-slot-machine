@@ -13,7 +13,7 @@
 /* LAYOUT
 /*******************************************/
 
-/* help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stackoverflow*/
+/* help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stackoverflow and Google AI overview*/
 
 html, body {
   margin: 0;
@@ -120,65 +120,54 @@ button:disabled {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-/* help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stack-overflow*/
+/* help and referenced from https://www.youtube.com/watch?v=-gb18FGIN0M and stack-overflow and Google AI overview*/
 
-/* Mobile */
 @media screen and (max-width: 600px) {
-  .reel {
-    width: 100px;
-    height: 100px;
-  }
-
-  .reel img {
-    width: 80px;
-    height: 80px;
-  }
-
-  h1 {
-    font-size: 18px;
-  }
-
-  button {
-    font-size: 14px;
-    padding: 15px 20px;
-  }
-
-  .result {
-    font-size: 16px;
-  }
-
-  .slot-container {
-    padding: 15px;
-  }
-
-  .logo {
-    width: 60%;
-    margin: 20px;
-  }
+.reel {
+  width: 100px;
+  height: 100px;
+}
+.reel img {
+  width: 80px;
+  height: 80px;
+}
+h1 {
+  font-size: 18px;
+}
+button {
+  font-size: 14px;
+  padding: 15px 20px;
+}
+.result {
+  font-size: 16px;
+}
+.slot-container {
+  padding: 15px;
+}
+.logo {
+  width: 60%;
+  margin: 20px;
+}
 }
 
 /* Tablets */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-  .reel {
-    width: 120px;
-    height: 120px;
-  }
-
-  .reel img {
-    width: 100px;
-    height: 100px;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-
-  button {
-    font-size: 16px;
-    padding: 18px 25px;
-  }
-
-  .result {
-    font-size: 18px;
-  }
+.reel {
+  width: 120px;
+  height: 120px;
+}
+.reel img {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  font-size: 22px;
+}
+button {
+  font-size: 16px;
+  padding: 18px 25px;
+}
+.result {
+  font-size: 18px;
+}
 }
